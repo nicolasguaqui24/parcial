@@ -1,0 +1,35 @@
+/*Estilo Menu navegacion*/
+
+.navegacion-menu ul {
+    list-style: none;
+}
+
+.navegacion-menu {
+    line-height: 3rem;
+}
+
+.navegacion-menu a {
+    left: 400px;
+    color: #dddddd;
+    position: relative;
+    display: flex;
+    text-decoration: none;
+    padding: 0 2.5rem;
+}
+
+.navegacion-menu a:hover {
+    background: rgba(255, 0, 0, 0.5);
+    opacity: 0.9;
+}
+
+/*Primer nivel menu*/
+
+.navegacion-menu>ul {
+    background: #000;
+    display: flex;
+    width: 30%;
+}
+
+.navegacion-menu>ul>li {
+    float: left;
+}

@@ -1,0 +1,186 @@
+@import url(menu.css);
+@import url(baner.css);
+@import url(articulos.css);
+@import url(tienda.css);
+@import url(estilosP.css);
+/* Estilo Pagina principal html.css*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+    color: #fff;
+    font-family: monospace;
+    display: flex;
+}
+
+.button-h .button {
+    margin-top: 15px;
+    position: relative;
+    left: 800px;
+    padding: 5px 25px;
+    font-size: 12px;
+    background: #000000;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid #fff;
+}
+
+.button-h button:hover {
+    background: rgba(255, 0, 0, 0.5);
+    opacity: 0.9;
+}
+
+nav {
+    background-color: black;
+    height: 50px;
+}
+
+body>section {
+    display: flex;
+}
+
+body>section .menu-izq {
+    width: 20%;
+    height: 1000px;
+    background: rgb(0, 0, 0);
+}
+
+.menu-izq h2 {
+    color: #fff;
+    font-family: cursive;
+    text-align: center;
+}
+
+body>section .contenido {
+    width: 80%;
+    height: 1000px;
+    background: rgb(0, 0, 0);
+}
+
+/*Contenedor Categorias (aside)*/
+
+input[type="radio"] {
+    display: none;
+}
+
+.container-category {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.container-category label {
+    padding: 6px 40px;
+    margin: 10px;
+    font-size: 20px;
+    background: #e2e2e2;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid #fff;
+}
+
+.container-category label:hover {
+    background: rgba(255, 0, 0, 0.5);
+    opacity: 0.9;
+}
+
+/*  FOOTER  */
+
+footer {
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+}
+
+footer .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.parrafo {
+    font-size: 20px;
+    color: white;
+}
+
+.redes-sociales {
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+}
+
+.redes-sociales a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+/*POP UP*/
+
+.overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+}
+
+.overlay.active {
+    visibility: visible;
+}
+
+.popup {
+    background: #5c4c4c;
+    box-shadow: 0px 0px 5px 0px rgb(0, 0, 0, 0.3);
+    color: #fff;
+    border-radius: 3px;
+    font-family: cursive;
+    padding: 20px;
+    text-align: center;
+    width: 600px;
+}
+
+.btn-cerrar-popup {
+    font-size: 16px;
+    line-height: 16px;
+    display: block;
+    text-align: right;
+    color: #ffffff;
+    transition: .3s ease all;
+}
+
+.btn-cerrar-popup:hover {
+    color: rgb(255, 255, 255);
+}
+
+.bnt-comprar {
+    padding: 5px 25px;
+    font-size: 12px;
+    background: rgba(0, 0, 0, 0.5);
+    ;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.bnt-comprar:hover {
+    background: rgba(255, 0, 0, 0.5);
+    opacity: 0.9;
+}
+
+
